@@ -1,3 +1,5 @@
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -47,6 +49,102 @@ table {
 	border-spacing: 0;
 }
 
-#logo {
-    width: 10%;
+	
+  
+
+
+.cabecalho { 
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			padding: 24px;
+			margin-left: 5%;
+			margin-right: 15%;
+			
+			
+
 }
+.cabecalho-imagem{
+    
+    width: 15%;
+	display:flex;
+	flex-direction:row;
+	align-items: baseline;
+	padding-bottom: 10%;
+	margin-bottom: -13%;
+	justify-content: center;   
+}
+
+.cabecalho-menu{ 
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color:#ffff;
+    font-weight:400;
+    font-size: 25px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+}
+.linha{
+	border-top: 1px solid rgb(255, 255, 255);
+	width: 80%;
+	opacity: 20%;
+    margin: 0 auto;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+body {
+	background: rgb(28,28,28);
+	background: linear-gradient(56deg, rgba(28,28,28,1) 0%, rgba(46,209,184,1) 100%);}
+	
+	.conteudo {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+	}
+
+	.conteudo-principal-titulo1 {
+		font-family: 'Titillium Web', sans-serif;
+		font-weight: 500;
+		 font-size: 64px;
+		 color: #ffffff;
+	}
+
+	.conteudo-principal-titulo2
+	{ 
+		font-family: 
+		font-weight: 500;
+		 font-size: 35px;
+		 color: #ffffff;
+		 align-items: center;
+	}
+
+	.ze-gota{
+		height: 600px;
+	}
+
+
+	.rodape {
+		padding: 32px;
+		
+   }
+
+   .rodape-imagem {
+    height: 100px;
+    display: block;
+  margin: 0 auto;
+}
+
+   
