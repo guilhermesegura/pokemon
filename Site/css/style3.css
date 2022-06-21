@@ -202,3 +202,14 @@ body {
 #logo {
     width: 150%;
 }
+
+
+  
+  .conteudo{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    height: 500px; /* Não necessário */
+    width: 50%; /* Não necessário */
+    text-align: center; /* Não necessário */
+  }
