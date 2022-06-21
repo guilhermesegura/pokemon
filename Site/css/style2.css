@@ -134,9 +134,11 @@ table {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 24px;
+    padding:  -10px 24px 24px -50px;
     margin-left: 5%;
     margin-right: 15%;
+    position: relative;
+
 
 }
 .cabecalho-imagem {
@@ -186,10 +188,17 @@ body {
 
 .degrade {
     background: linear-gradient(56deg, rgba(28,28,28,1) 0%, rgba(46,209,184,1) 100%);
+    position: fixed;
+    height: 15%;
+    padding-bottom: -10%;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
 }
 
 .rodape {
     padding: 32px;
+    
 
 }
 
@@ -203,13 +212,17 @@ body {
     width: 150%;
 }
 
+.main-principal{ 
+    text-align: justify; 
+    padding: 10em ;            
+}
+
+.degrade-rodape{
+    background: linear-gradient(56deg, rgba(28,28,28,1) 0%, rgba(46,209,184,1) 100%);
+    position: relative;
+}
+
+
 
   
-  .conteudo{
-    display: flex;
-    flex-direction: row;
-    margin: 50px;
-    height: 500px; /* Não necessário */
-    width: 50%; /* Não necessário */
-    text-align: center; /* Não necessário */
-  }
+  
