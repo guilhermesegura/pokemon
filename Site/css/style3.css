@@ -180,33 +180,12 @@ table {
     justify-content: space-around;
 }
 body {
-    background: rgb(28,28,28);
+    background: #ffffffff;
+
+}
+
+.degrade {
     background: linear-gradient(56deg, rgba(28,28,28,1) 0%, rgba(46,209,184,1) 100%);
-}
-
-.conteudo {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
-
-.conteudo-principal-titulo1 {
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 500;
-    font-size: 64px;
-    color: #ffffff;
-}
-
-.conteudo-principal-titulo2 {
-    font-family: sans-serif;
-	font-weight: 500em;
-    font-size: 35px;
-    color: #ffffff;
-    align-items: center;
-}
-
-.ze-gota {
-    height: 600px;
 }
 
 .rodape {
@@ -221,5 +200,5 @@ body {
 }
 
 #logo {
-	width: 150%;
+    width: 150%;
 }
