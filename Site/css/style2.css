@@ -3,7 +3,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Open+Sans:wght@300&family=Poppins:wght@100&family=Sarala&family=Source+Sans+Pro:wght@300&display=swap');
 a,
 abbr,
 acronym,
@@ -136,7 +137,7 @@ table {
     justify-content: space-between;
     padding:  -10px 24px 24px -50px;
     margin-left: 5%;
-    margin-right: 15%;
+    margin-right: 5%;
     position: relative;
 
 
@@ -147,9 +148,20 @@ table {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    padding-bottom: 10%;
-    margin-bottom: -13%;
+    padding-top: 0%;
+    padding-bottom: -10%;
+    margin-bottom: -2%;
     justify-content: center;
+
+}
+
+a.cabecalho-imagem{
+    padding-bottom: -10%;
+}
+
+.cabecalho-imagem img {
+    height: 119.84px; 
+    object-fit: cover;
 }
 
 .cabecalho-menu {
@@ -194,6 +206,7 @@ body {
     display: flex;
     justify-content: baseline;
     align-items: center;
+    width: 100%;
 }
 
 .rodape {
@@ -210,6 +223,7 @@ body {
 
 #logo {
     width: 150%;
+    
 }
 
 .main-principal{ 
@@ -222,7 +236,32 @@ body {
     position: relative;
 }
 
+.Titulo-Texto{ font-family: 'Sarala', sans-serif;
+               font-size: 3em;
+
+}
 
 
-  
-  
+.Subtitulo-1{ font-family: 'Sarala', sans-serif;
+            font-size: 2em;
+
+}
+
+.paragrafo-1{ font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+
+
+}
+.cabecalho-menu{
+    margin: -25%;
+
+}
+.imagem{
+        margin: auto;
+        display: block;
+        
+        
+
+}
+
+
