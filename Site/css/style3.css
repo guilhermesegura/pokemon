@@ -139,6 +139,7 @@ table {
     margin-left: 5%;
     margin-right: 5%;
     position: relative;
+    flex-wrap: wrap;
 
 
 }
@@ -264,3 +265,10 @@ body {
 
 }
 
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(150, 150, 150)
+}

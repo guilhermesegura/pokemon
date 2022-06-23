@@ -137,6 +137,7 @@ table {
     padding: 24px;
     margin-left: 5%;
     margin-right: 15%;
+    flex-wrap: wrap;
 
 }
 .cabecalho-imagem {
@@ -222,4 +223,12 @@ body {
 
 #logo {
 	width: 150%;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(150, 150, 150)
 }
