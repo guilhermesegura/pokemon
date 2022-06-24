@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Open+Sans:wght@300&family=Poppins:wght@100&family=Sarala&family=Source+Sans+Pro:wght@300&display=swap');
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:  -10px 24px 24px -50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    flex-wrap: wrap;
+
+
+}
+.cabecalho-imagem {
+
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-top: 0%;
+    padding-bottom: -10%;
+    margin-bottom: -2%;
+    justify-content: center;
+
+}
+
+a.cabecalho-imagem{
+    padding-bottom: -10%;
+}
+
+.cabecalho-imagem img {
+    height: 119.84px; 
+    object-fit: cover;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+}
+.linha {
+    border-top: 1px solid rgb(255, 255, 255);
+    width: 80%;
+    opacity: 20%;
+    margin: 0 auto;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+body {
+    background: #ffffffff;
+
+}
+
+.degrade {
+    background: linear-gradient(56deg, rgba(28,28,28,1) 0%, rgba(46,209,184,1) 100%);
+    position: fixed;
+    height: 15%;
+    padding-bottom: -10%;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    width: 100%;
+}
+
+.rodape {
+    padding: 32px;
+    
+
+}
+
+.rodape-imagem {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 150%;
+    
+}
+
+.main-principal{ 
+    text-align: justify; 
+    padding: 10em ;            
+}
+
+.degrade-rodape{
+    background: linear-gradient(56deg, rgba(28,28,28,1) 0%, rgba(46,209,184,1) 100%);
+    position: relative;
+}
+
+.Titulo-Texto{ font-family: 'Sarala', sans-serif;
+               font-size: 3em;
+
+}
+
+
+.Subtitulo-1{ font-family: 'Sarala', sans-serif;
+            font-size: 2em;
+
+}
+
+.paragrafo-1{ font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+
+
+}
+.cabecalho-menu{
+    margin: -25%;
+
+}
+.imagem{
+        margin: auto;
+        display: block;
+        
+        
+
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(150, 150, 150)
+}
+
+#watch {
+    max-width: 50%;
+} 
